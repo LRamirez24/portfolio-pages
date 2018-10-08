@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link href="css/styles.css" rel="stylesheet">
+       <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <title>Projects</title>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-light navbar-expand-sm fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+         <span class="navbar-toggler-icon"></span>
+           </button>
+              <a class="navbar-brand mr-auto" href="#"><img src="img/black.jpg" height="30" width="41"></a>
+                    <div class="collapse navbar-collapse" id="Navbar">           
+               <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+            <li class="nav-item active"><a class="nav-link" href="./projects.html"><span class="fa fa-info fa-lg"></span>Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span>Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span>Contact</a></li>
+        </ul>
+      </div>
+  </div>
+</nav>
+
+
+
+
+    <h2 class="display-4 text-center">Projects</h2>
+    <!-- Section description -->
+    <p class="lead text-center">All Pages Made With Passion and Love.</p>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-sm-4 offset-md-2">
+<div class="card  text-white">
+  <img class="card-img" src="img/games.jpg" alt="art site" width="400" height="400">
+  <div class="card-img-overlay">
+     <a class="btn btn-dark btn-rounded"><i class="fa fa-clone left"></i> View project</a>
+  </div>
+</div>
+<div>
+  <h4 class="display-4 text-center"> Games </h4>
+  <p class="lead text-center">This is a website that allows the user to play a 2-D game.</p>
+</div>
+</div>
+    <div class="col-12 col-sm-4 m-1">
+<div class="card  text-white">
+  <img class="card-img" src="img/web.jpeg" alt="resume site" width="400" height="400">
+</div>
+<div>
+  <h4 class="display-4 text-center"> React </h4>
+  <p class="lead text-center">This is a website that was made for a client.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-sm-4 offset-md-2">
+<div class="card  text-white">
+  <img class="card-img" src="img/website.jpg" alt="art site" width="400" height="400">
+  <div class="card-img-overlay">
+     <a class="btn btn-dark btn-rounded"><i class="fa fa-clone left"></i> View project</a>
+  </div>
+</div>
+<div>
+  <h4 class="display-4 text-center"> Pixel Art </h4>
+  <p class="lead text-center">This is a website that allows the user to make art with pixels.</p>
+</div>
+</div>
+    <div class="col-12 col-sm-4 m-1">
+<div class="card  text-white">
+  <img class="card-img" src="img/resume2.jpg" alt="resume site" width="400" height="400">
+</div>
+<div>
+  <h4 class="display-4 text-center">Blog</h4>
+  <p class="lead text-center">This is fun site that i express myself in.</p>
+</div>
+</div>
+
+</div>
+</div>
+
+
+  
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <!-- jQuery -->
+   <script>
+       $(document).ready(function() {
+        $('#mycarousel').carousel({interval: 2000});
+        $('#carouselButton').click(function() {
+            if ($('#carouselButton').children('span').hasClass('fa-pause')) {
+                $('#mycarousel').carousel('pause');
+                $('#carouselButton').children('span').removeClass('fa-pause');
+                $('#carouselButton').children('span').addClass('fa-play');
+            }
+            else if ($('#carouselButton').children('span').hasClass('fa-play')) {
+                $('#mycarousel').carousel('cycle');
+                $('#carouselButton').children('span').removeClass('fa-play');
+                $('#carouselButton').children('span').addClass('fa-pause');
+            }
+        });
+       });
+
+       $(document).ready(function(){
+    $("#reserve").click(function(){
+        $("#reservetable").modal();
+    });
+});
+
+              $(document).ready(function(){
+    $("#loginBtn").click(function(){
+        $("#loginModals").modal();
+    });
+});
+
+
+   </script>
+
+
+     
+
+</body>
+
+</html>

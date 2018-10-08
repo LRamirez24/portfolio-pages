@@ -1,0 +1,57 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.footer {
+  background-color: #ffffff;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #ffffff;
+  color: #000000; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #ffffff; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; 
+  background-color: #ffffff;
+}
+
+.navbar-light {
+  background-color: #ffffff; }
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
+
+
+
+.card .card-header {
+  background: #FFA500; }
+
+.modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
+h5 {
+	color: white;
+}
