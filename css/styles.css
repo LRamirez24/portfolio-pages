@@ -39,7 +39,7 @@ body {
 .project {
   width: 100%;
   height: 500px;
-  background-image: url('../../img/high.jpg');
+  background-image: url('/img/high.jpg');
   background-size: cover;
   background-position: center;
   padding: 0 !important;
@@ -47,16 +47,16 @@ body {
 }
 
 .project-2 {
-  background-image: url('../../img/games.jpg');
+  background-image: url('/img/games.jpg');
 
 }
 
 .project-3 {
-  background-image: url('../../img/pix.png');
+  background-image: url('/img/pix.png');
 }
 
 .project-4 {
-  background-image: url('../../img/pink.jpg');
+  background-image: url('/img/pink.jpg');
 }
 
 .project-hover {
