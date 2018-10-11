@@ -39,7 +39,7 @@ body {
 .project {
   width: 100%;
   height: 500px;
-  background-image: url('/img/high.jpg');
+  background-image: url(https://www.webpagefx.com/portfolio/content/uploads/2013/08/bricco-964x450.jpg);
   background-size: cover;
   background-position: center;
   padding: 0 !important;
@@ -47,16 +47,16 @@ body {
 }
 
 .project-2 {
-  background-image: url('/img/games.jpg');
+  background-image: url(https://images.idgesg.net/images/article/2017/11/iphonex-games-lead-100742769-orig.jpg);
 
 }
 
 .project-3 {
-  background-image: url('/img/pix.png');
+  background-image: url(https://koenig-media.raywenderlich.com/uploads/2012/06/tutorial_screenshot008.jpg);
 }
 
 .project-4 {
-  background-image: url('/img/pink.jpg');
+  background-image: url(http://vegansparkles.com/wp-content/uploads/2013/11/MacbookAir-Desk-Mockup2.jpg);
 }
 
 .project-hover {
