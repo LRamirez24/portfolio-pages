@@ -29,6 +29,7 @@ button {
     margin: 0px auto;
     padding: 70px 30px;
     background: #482ff7;
+    text-decoration: wavy;
     color: #f3f169;
     background-image: url(https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?cs=srgb&dl=astronomy-atmosphere-earth-exploration-220201.jpg&fm=jpg);
     background-repeat: no-repeat;
@@ -126,10 +127,17 @@ p {
     color: #fad3cf;
 }
 
-h4,
 h5,
+h6,
+li,
+h1,
 h2 {
     color: #fad3cf;
+}
+
+h4 {
+    color: #fad3cf;
+    text-shadow: 2px 2px #000000;
 }
 
 img {
