@@ -66,3 +66,67 @@ p {
         transform: translateY(40%) rotateZ(20deg);
     }
 }
+
+#right-leg {
+    animation: leg 2s infinite linear alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+#left-leg {
+    animation: leg 4s infinite linear alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+#upper-body {
+    animation: body 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+#ball {
+    animation: ball 1s ease-in-out infinite alternate;
+    transform-origin: top;
+}
+
+#head {
+    animation: head 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes leg {
+    from {
+        transform: rotateX(12deg);
+    }
+    to {
+        transform: rotateX(30deg);
+    }
+}
+
+@keyframes body {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(20deg);
+    }
+}
+
+@keyframes head {
+    from {
+        transform: translateY(0%) rotateZ(0deg);
+    }
+    to {
+        transform: translateY(30%) rotateZ(20deg);
+    }
+}
+
+@keyframes ball {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(35deg);
+    }
+}
